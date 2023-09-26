@@ -1,0 +1,16 @@
+{
+  "name": "edson/app_carrinho_compras",
+  "type": "project",
+  "authors": [
+    {
+      "name": "edson",
+      "email": "edsonbh92@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "src\\": "src/"
+    }
+  }
+}
