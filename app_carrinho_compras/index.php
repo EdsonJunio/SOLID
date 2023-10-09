@@ -50,9 +50,6 @@ echo $order->getShoppingCart()->validatedCart();
 echo '<h4>Status order</h4>';
 echo $order->getStatus();
 // -------------------------------------------
-echo '<h4>Status order</h4>';
-echo $order->getStatus();
-// -------------------------------------------
 echo '<h4>order confirmation</h4>';
 echo $order->confirmation();
 // -------------------------------------------
@@ -61,7 +58,7 @@ echo $order->getStatus();
 // -------------------------------------------
 echo '<h4>E-mail</h4>';
 if ($order->getStatus() == 'Confirmation') {
-   echo Emailservice::triggerEmail();
+    echo Emailservice::triggerEmail();
 }
 
 

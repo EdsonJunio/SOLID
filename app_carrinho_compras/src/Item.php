@@ -35,6 +35,18 @@ class Item
     }
 
 
+    public function validetedItem()
+    {
+        if($this->description == '') {
+            return false;
+        } 
+        if($this->value <=0) {
+            return false;
+        }
+    
+    }
+
+
 
 
 

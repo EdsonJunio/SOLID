@@ -3,7 +3,6 @@
 namespace src;
 
 
-use http\Encoding\Stream;
 use src\Item;
 
 class ShoppingCart
