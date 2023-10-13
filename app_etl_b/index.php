@@ -19,6 +19,14 @@ $leitorCSV->setArquivo('dados.csv');
 $arr_csv = $leitorTXT->lerArquivo();
 
 
+// ----------------------- XLSX
+$leitorXLSX = new Leitor();
+$leitorXLSX->setDiretorio(__DIR__ . '/arquivos');
+$leitorXLSX->setArquivo('dados.xlsx');
+$arr_xlsx = $leitorXLSX->lerArquivo();
+
+// ------------------------ Merge entre TXT, CSV e XLSX
+
 echo '<pre>';
-print_r(array_merge($arr_txt, $arr_csv));
+print_r(array_merge($arr_txt, $arr_csv, $arr_xlsx));
 echo '</pre>';
