@@ -30,7 +30,7 @@ class ShoppingCart
         return true;
     }
 
-    public function validatedCart()
+    public function validatedCart(): int
     {
         return count($this->itens) > 0;
     }

@@ -1,0 +1,20 @@
+{
+    "name": "dev/app_poliganos",
+    "autoload": {
+        "psr-4": {
+            "Dev\\AppPoliganos\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "EdsonJunio",
+            "email": "69820618+EdsonJunio@users.noreply.github.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/"
+        }
+    }
+}

@@ -14,12 +14,12 @@ class Item
         $this->value = 0;
     }
 
-    public function getDescription()
+    public function getDescription(): string
     {
         return $this->description;
     }
 
-    public function getValue()
+    public function getValue(): int
     {
         return $this->value;
     }
