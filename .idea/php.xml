@@ -12,12 +12,49 @@
   </component>
   <component name="PhpIncludePathManager">
     <include_path>
+      <path value="$PROJECT_DIR$/app_crm/vendor/composer" />
+      <path value="$PROJECT_DIR$/app_poliganos/vendor/composer" />
+      <path value="$PROJECT_DIR$/app_etl_b/vendor/composer" />
+      <path value="$PROJECT_DIR$/app_carrinho_compras/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/app_carrinho_compras/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/app_carrinho_compras/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/app_carrinho_compras/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/app_carrinho_compras/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/app_carrinho_compras/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/app_carrinho_compras/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/app_carrinho_compras/vendor/sebastian/global-state" />
       <path value="$PROJECT_DIR$/app_carrinho_compras/vendor/composer" />
+      <path value="$PROJECT_DIR$/app_carrinho_compras/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/app_carrinho_compras/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/app_carrinho_compras/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/app_carrinho_compras/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/app_carrinho_compras/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/app_carrinho_compras/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/app_carrinho_compras/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/app_carrinho_compras/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/app_carrinho_compras/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/app_carrinho_compras/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/app_carrinho_compras/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/app_carrinho_compras/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/app_carrinho_compras/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/app_carrinho_compras/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/app_carrinho_compras/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/app_carrinho_compras/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/app_carrinho_compras/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/app_carrinho_compras/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/app_carrinho_compras/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/app_carrinho_compras/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/app_etl/vendor/composer" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.0" />
   <component name="PhpStanOptionsConfiguration">
     <option name="transferred" value="true" />
+  </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/app_carrinho_compras/vendor/autoload.php" />
+    </phpunit_settings>
   </component>
   <component name="PsalmOptionsConfiguration">
     <option name="transferred" value="true" />
